@@ -1,4 +1,2 @@
 #!/bin/bash
- chmod o+x "$dir"
-  chmod g+x "$dir"
-  chmod u+x "$dir"
+chmod a+x $d
