@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 # displays information about file
-file="./holbertonschool"
+file="./school"
 if [ -e $file ]
 then 
 	echo "school file exists"
 	if [ -s $file ]
 	then
-		echo "school file is empty"
+		echo "school file is not empty"
 	else
-		echo "school file is not  empty"
+		echo "school file is empty"
 	fi
 	if [ -f $file ]
 	then
